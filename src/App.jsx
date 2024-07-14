@@ -29,10 +29,13 @@ function App() {
     <div
       className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
       style={{
-        backgroundImage: `url('img.jpg')`,
+        backgroundImage: `url('./public/img.jpg')`,
+        
        
       }}
+      
     >
+
       <div className="w-full">
         <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
           <form
